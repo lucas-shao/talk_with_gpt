@@ -1,13 +1,17 @@
 [tool.poetry]
 name = "talk-with-gpt"
 version = "0.1.0"
-description = "talk with gpt with chinese"
+description = "talk with gpt"
 authors = ["lucas-shao <lucas_shao@126.com>"]
+license = "MIT"
 readme = "README.md"
 packages = [{include = "talk_with_gpt"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pyaudio = "^0.2.13"
+uvicorn = "^0.22.0"
+gunicorn = "^20.1.0"
 
 
 [build-system]
